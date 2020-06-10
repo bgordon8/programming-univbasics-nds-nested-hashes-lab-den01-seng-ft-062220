@@ -37,6 +37,7 @@ end
 
 def aoh_update(aoh, row, key, new_value)
 aoh[row][:name] = new_value
+aoh[key][:occupation] = new_value
 aoh
   puts aoh
   # Update the AoH data at row and key to have the value of new_value
