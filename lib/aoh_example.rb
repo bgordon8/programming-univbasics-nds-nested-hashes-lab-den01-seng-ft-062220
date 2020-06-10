@@ -36,9 +36,9 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  aoh_update= aoh[row][new_value
+  aoh_update= aoh[row][new_value]
   aoh_update= aoh[key[new_value]
-   p aoh_update
+  p aoh_update
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
