@@ -36,6 +36,13 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
+  assembled_aoh = [
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G
+    ]
   aoh_update = []
   aoh[0][row] = new_value
   aoh[row][:occupation] = new_value
