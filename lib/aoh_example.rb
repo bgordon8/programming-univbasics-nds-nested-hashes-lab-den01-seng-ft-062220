@@ -37,7 +37,7 @@ end
 
 def aoh_update(aoh, row, key, new_value)
 aoh[row][:name] = new_value,
-aoh[key][new_value] = new_value
+aoh[key][0] = new_value
 
 aoh
   puts aoh
